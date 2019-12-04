@@ -1,2 +1,2 @@
-# cv
-personal curriculum vitae
+# personal website
+website developer
