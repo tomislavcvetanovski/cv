@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  text-align: center;
+  height: 800px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.top-container {
+  background-color: #00bbf0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.tommy {
+  color: white;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+  font-size: 400%;
+}
+
+.webdeveloper {
+  margin-top: 0;
+  color: white;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  height: 80px;
+  width: 160px;
+}
+.bottom-cloud:hover{
+  height: 100px;
+  width: 185px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  height: 80px;
+  width: 160px;
+}
+
+.top-cloud:hover{
+  height: 100px;
+  width: 185px;
+}
+
+.mountain {
+  object-fit: cover;
+  object-position: 10% 30px;
+}
+
+hr {
+  border-color: #00bbf0;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 7%;
+}
+
+h2 {
+  color: #00bbf0;
+}
+
+h3 {
+  color: #00bbf0;
+}
+
+p {}
+
+.profile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.portrait {
+  border-radius: 50%;
+}
+
+
+.middle-container {}
+
+.skills {
+  text-align: center;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.weblogo {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.graphiclogo {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.androidlogo {
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdevelopment {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.graphicdesigner {
+  text-align: right;
+  padding-bottom: 30px;
+}
+
+.androiddeveloper {
+  padding-top: 30px;
+  text-align: left;
+
+}
+
+.contact-me {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.bottom-container {
+  background-color: #00bbf0;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.btn {
+	box-shadow: 0px 1px 0px 0px white;
+	background:linear-gradient(to bottom, #33bdef 5%, #00bbf0 100%);
+	background-color:#00bbf0;
+	border-radius:35px;
+	border:1px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size:16px;
+	padding:11px 30px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+  margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.footer-link:hover{
+  color:white;
+}
